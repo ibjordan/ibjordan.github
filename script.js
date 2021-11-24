@@ -154,7 +154,7 @@ form.addEventListener('submit', function (e) {
         }
         const response = fetch('https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook', {
                 method: 'POST',
-                body: JSON.stringify({"tel" : "PHONE_NUMBER", "useCase":"seguros", "pago" : procesoPago}),// string or object
+                body: JSON.stringify({"tel" : "PHONE_NUMBER", "usecase":"seguros", "pago" : procesoPago}),// string or object
             }
         );
         alert("El pago está siendo procesdao");
