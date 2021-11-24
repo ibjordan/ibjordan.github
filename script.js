@@ -151,8 +151,7 @@ form.addEventListener('submit', function (e) {
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
             }
         );
-        alert("El pago fue procesado correctamente, en instantes"
-        + " recibirá un mensaje con la confirmación del pago");
+        alert("El pago está siendo procesdao");
 
     }
 });
