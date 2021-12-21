@@ -157,7 +157,7 @@ form.addEventListener('submit', function (e) {
                 body: JSON.stringify({"tel" : "PHONE_NUMBER", "usecase":"seguros", "pago" : procesoPago}),// string or object
             }
         );
-        alert("El pago está siendo procesdao");
+        alert("El pago está siendo procesado");
 
     }
 });
